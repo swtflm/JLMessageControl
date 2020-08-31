@@ -1,0 +1,40 @@
+# The plugin supports text formatting.
+# Enter the text you want inside the quotes.
+
+# Examples:
+# firstjoinmsg: "&7%p% &6has joined the server for the first time! Welcome!"
+# pfirstjoinmsg: "&6Hello, &7%p%&6! Only you can see this message. Please be polite and respect the server rules."
+# joinmsg: "&8[ &a+ &8] &7%p% &fjoined the server."
+# pjoinmsg: "&6Welcome back, &7%p%&6!"
+# leavemsg: "&8[ &c- &8] &7%p% &fleft the server."
+# reloadmsg: "&aPlugin reloaded."
+
+# Player first join message that all players will see.
+firstjoinmsg:
+  enabled: false
+  message: ""
+
+# A personal message to the player when he first joins the server.
+pfirstjoinmsg:
+  enabled: false
+  message: ""
+
+# Player join message that all players will see.
+joinmsg:
+  enabled: false
+  message: ""
+
+# A personal message to the player when he joins the server.
+pjoinmsg:
+  enabled: false
+  message: ""
+
+# Player leave message that all players will see.
+leavemsg:
+  enabled: false
+  message: ""
+
+# Plugin reload message.
+reloadmsg:
+  enabled: true
+  message: "&aPlugin reloaded."

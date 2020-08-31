@@ -1,0 +1,11 @@
+name: JLMessageControl
+main: jl.Main
+version: 1.0
+author: sweetflame
+description: A plugin that allows you to control messages about player join/leave, first join, etc.
+commands:
+  reloadjl:
+    description: Plugin reload.
+    usage: /reloadjl
+    permission: jl.reload
+    permission-message: You don't have the jl.reload permission.
