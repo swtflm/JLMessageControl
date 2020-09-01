@@ -2,7 +2,7 @@ import org.apache.tools.ant.filters.ReplaceTokens
 
 apply plugin: 'java'
 
-group = 'RedFire'
+group = 'JLMessageControl'
 version = '1.0-SNAPSHOT'
 
 sourceCompatibility = '1.8'
